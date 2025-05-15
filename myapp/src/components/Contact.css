@@ -1,0 +1,77 @@
+.container {
+    display: flex; /* Use Flexbox */
+    justify-content: space-between; /* Space between columns */
+    margin: 20px; /* Margin around the container */
+}
+
+.column {
+    flex: 1; /* Equal width for both columns */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in width/height */
+}
+
+.left-column {
+    background-color: #f0f0f0; /* Light background for left column */
+}
+
+.right-column {
+    background-color: #ffffff; /* White background for right column */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+form div {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+button {
+    background-color: #6a0dad; /* Button color */
+    color: white; /* Button text color */
+    padding: 10px; /* Button padding */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #5a0c9e; /* Darker button color on hover */
+}
+.social-links {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-around; /* Space between items */
+    margin:20px 20px; /* Space above the section */
+}
+
+.social-links a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none; /* Remove underline */
+    color: #6a0dad; /* Icon color */
+    font-weight: bold; /* Bold text */
+    display: flex; /* Align icon and text */
+    align-items: center; /* Center items vertically */
+}
+
+.social-links a i {
+    margin-right: 5px; /* Space between icon and text */
+    font-size: 1.5em; /* Adjust icon size */
+}
+
+.social-links a:hover {
+    color: #5a0c9e; /* Darker color on hover */
+}
+.h1sociallink{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #6a0dad;
+}
+.contactus-h1:hover{
+    color: #49474b;
+    transform:rotate(45);
+    scroll: padding bottom 45px;
+    cursor: pointer;
+    
+}
